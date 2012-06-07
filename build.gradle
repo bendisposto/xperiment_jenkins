@@ -1,1 +1,15 @@
 apply plugin: 'java'
+
+
+repositories {
+    maven {
+      name "cobra"
+      url "http://cobra.cs.uni-duesseldorf.de/artifactory/repo"
+    } 
+}
+
+dependencies {
+	
+	testCompile 'junit:junit:4.8.2'
+	
+}
