@@ -24,7 +24,7 @@ public class BarTest {
 	}	
 
 	@Test 
-	public void testFrenchBar() {
+	public void testFrenchCamelBar() {
 		Bar b = new Bar("Progress",true,true);
 		assertEquals("le ProgressBar",b.getText());
 	}
