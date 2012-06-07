@@ -19,7 +19,7 @@ public class BarTest {
 
 	@Test 
 	public void testFrenchBar() {
-		Bar b = new Bar("Progress",true,true);
+		Bar b = new Bar("Progress",false,true);
 		assertEquals("le Progressbar",b.getText());
 	}	
 }
