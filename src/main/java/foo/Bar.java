@@ -16,7 +16,7 @@ public class Bar {
 	
 	
 	public String getText() {
-		return s+(b?"Bar":"bar");
+		return (french?"le ":"")+s+(b?"Bar":"bar");
 	}
 	
 	
