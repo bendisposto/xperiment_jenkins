@@ -11,4 +11,10 @@ public class BarTest {
 		assertEquals("Progressbar",b.getText());
 	}
 	
+	@Test 
+	public void testCamelBar() {
+		Bar b = new Bar("Progress",true);
+		assertEquals("ProgressBar",b.getText());
+	}
+	
 }
