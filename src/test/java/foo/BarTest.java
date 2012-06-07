@@ -22,4 +22,11 @@ public class BarTest {
 		Bar b = new Bar("Progress",false,true);
 		assertEquals("le Progressbar",b.getText());
 	}	
+
+	@Test 
+	public void testFrenchCamelBar() {
+		Bar b = new Bar("Progress",true,true);
+		assertEquals("le ProgressBar",b.getText());
+	}
+
 }
