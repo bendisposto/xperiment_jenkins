@@ -5,6 +5,8 @@ import static org.junit.Assert.*;
 
 public class BarTest {
 	
+	ich bin einfach wertlos!!!
+	
 	@Test 
 	public void testBar() {
 		Bar b = new Bar("Progress");
