@@ -29,6 +29,5 @@ public class BarTest {
 		assertEquals("le ProgressBar",b.getText());
 	}
 	
-	fail!
 
 }
