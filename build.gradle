@@ -8,8 +8,9 @@ repositories {
     } 
 }
 
+test.ignoreFailures = true
+
 dependencies {
-	
+	compile 'com.google.guava:guava:r09'
 	testCompile 'junit:junit:4.8.2'
-	
 }
